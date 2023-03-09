@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
 div {
-    background-color: #a1b5cb;
+  background-color: rgb(25, 57, 104);
 }
 
 app-social {
-    float: right;
-    margin-top: 35px;
+  float: right;
+  margin-top: 35px;
 }
+
+

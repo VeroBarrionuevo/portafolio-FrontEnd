@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins";
+    
+}
 .row {
-    background-color: #a1b5cb;
+    background-color: rgb(25, 57, 104);
+    
 }
 
+p{
+    padding-top: 10px;
+}
 footer {
     color: #fefefe;
     font-size: 14px;
@@ -10,3 +20,5 @@ footer {
     text-align: center;
     box-shadow: 2px -2px 5px #999;
 }
+
+
