@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+
 .row {
     padding: 20px;
 
 }
+#name{
+    padding-top: 2rem;
+}
+button{
+    margin-bottom: 1rem;
+}
 
+h1 {
+    font-weight: bolder;
+}
+
+.texto{
+    padding: 0 2rem 0 1rem;
+}
 div {
-    background-color: #a1b5cd;
+    background-color: rgb(128, 165, 207);
     text-align: center;
 }
 
@@ -12,12 +31,16 @@ div {
 
 @media (min-width: 576px) {
     #fotodeperfil {
-        position: absolute;
-        width: 15%;
+       
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 645px;
+        
+    }
+
+    .descripcion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
