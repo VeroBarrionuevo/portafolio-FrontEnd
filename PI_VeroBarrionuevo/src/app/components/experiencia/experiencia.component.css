@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+
 .row    {
     padding: 20px;
 }
 
 div {
-    background-color: #a1b5cd;
+    background-color: #a1b5cb;
+}
+h1 {
+    font-weight: bolder;
 }
 
 h1, h3 {
